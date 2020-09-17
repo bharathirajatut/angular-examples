@@ -1,4 +1,15 @@
-# AngularExcelExample
+# Tutorial
+Get detailed explanation about, how to export data to excel in Angular using ExcelJS using below URL.
+https://medium.com/javascript-in-plain-english/export-data-to-excel-in-angular-using-exceljs-305ba8c5dece
+
+# How to
+
+1. Download this repo on your local PC.
+2. Open the folder using VS Code Editor
+3. Run ```npm install``` on the terminal to install neccessary files
+4. Preview using ```ng serve --open```
+
+# Angular Excel Example
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
 
