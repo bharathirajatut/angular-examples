@@ -1,0 +1,21 @@
+<!-- this creates a google map on the page with the given lat/lng from -->
+
+
+
+<div class="mc">
+    <form [formGroup]="user">
+        <mat-form-field class="fieldfix" appearance="outline">
+            <mat-label>Username</mat-label>
+            <input matInput formControlName="username" placeholder="Enter Username">
+            <mat-icon matSuffix>directions_boat</mat-icon>
+            <mat-error *ngIf="user.get('username').touched && user.get('username').invalid">
+                <mat-error *ngIf="user.get('username').errors.required">Please enter the username.</mat-error>
+                <mat-error *ngIf="user.get('username').errors.shouldBeUnique">Username already exist</mat-error>
+
+            </mat-error>
+        </mat-form-field>
+
+    </form>
+</div>
+
+<router-outlet></router-outlet>

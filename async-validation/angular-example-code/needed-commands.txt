@@ -1,0 +1,11 @@
+1.How to list npm user-installed packages?
+
+
+npm ls --depth=0
+
+
+2. npm uninstall package
+
+npm uninstall package_name
+
+npm uninstall @agm/core
