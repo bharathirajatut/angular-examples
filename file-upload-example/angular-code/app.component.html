@@ -1,0 +1,18 @@
+<!-- this creates a google map on the page with the given lat/lng from -->
+
+
+
+<div class="mc">
+
+    <input [formControl]="file" (change)="fileChange(index,$event)" type="file" placeholder="File">
+    <br>
+
+    <button style="margin-top:20px" (click)="uploadFile()" mat-raised-button color="primary">
+        Upload
+    </button>
+
+</div>
+
+
+
+<router-outlet></router-outlet>
