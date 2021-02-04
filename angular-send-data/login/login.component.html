@@ -1,0 +1,7 @@
+<a routerLink="/user/raja">URL PARAM</a>
+<br>
+<a [routerLink]="['/user/raja']" [queryParams]="{ source: 'Application'}">Query PARAM</a>
+<br>
+<button (click)="gotoUser()">URL Param Click</button>
+<br>
+<button (click)="gotoUser2()">Extras State</button>
