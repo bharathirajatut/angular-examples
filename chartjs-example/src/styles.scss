@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+//@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "m-modified.css";
+html,
+body {
+    margin: 0 !important;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.marl100 {
+    margin-left: 100px
+}
+
+.mart10 {
+    margin-top: 10px
+}
+
+.mart60 {
+    margin-top: 60px
+}
+
+.dashrowfix {
+    background: #3f51b5;
+    border-radius: 10px;
+    margin-top: -10px
+}
+
+.dashh1 {
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 400px;
+    max-height: 400px
+}
+
+.martneg10 {
+    margin-top: -10px
+}

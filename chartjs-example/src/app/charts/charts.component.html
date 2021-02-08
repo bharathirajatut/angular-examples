@@ -1,0 +1,101 @@
+<div class="row marl100 mart60">
+    <div class="col m6 s12 mart10">
+        <div class="mat-elevation-z4 white dashh1">
+            <div class="row dashrowfix">
+                <div class="col m6 s12 martneg10">
+                    <h5 class="white-text">Line Chart</h5>
+                </div>
+                <div class="col m6 s12 martneg10">
+                    <h5 class="white-text right"></h5>
+                </div>
+            </div>
+            <div class="white">
+                <chart class="dashchart" [type]="type" [data]="data" [options]="options"></chart>
+            </div>
+        </div>
+    </div>
+    <div class="col m6 s12 mart10">
+        <div class="mat-elevation-z4 white dashh1">
+            <div class="row dashrowfix">
+                <div class="col m8 s12 martneg10">
+                    <h5 class="white-text">Pie Chart</h5>
+                </div>
+            </div>
+            <div class="white">
+                <chart class="dashchart" [type]="type4" [data]="data4" [options]="options4"></chart>
+            </div>
+        </div>
+    </div>
+    <div class="col m6 s12 mart10">
+        <div class="mat-elevation-z4 white dashh1">
+            <div class="row dashrowfix">
+                <div class="col m12 s12 martneg10">
+                    <h5 class="white-text">Multiple Bar Chart</h5>
+                </div>
+            </div>
+            <div class="white">
+                <chart class="dashchart" [type]="type3" [data]="data3" [options]="options3"></chart>
+            </div>
+        </div>
+    </div>
+    <div class="col m6 s12 mart10">
+        <div class="mat-elevation-z4 white dashh1">
+            <div class="row dashrowfix">
+                <div class="col m8 s12 martneg10">
+                    <h5 class="white-text">Doughnut Chart</h5>
+                </div>
+            </div>
+            <div class="white">
+                <chart class="dashchart" [type]="type1" [data]="data1" [options]="options1"></chart>
+            </div>
+        </div>
+    </div>
+    <div class="col m6 s12 mart10">
+        <div class="mat-elevation-z4 white dashh1">
+            <div class="row dashrowfix">
+                <div class="col m8 s12 martneg10">
+                    <h5 class="white-text">Bar Chart</h5>
+                </div>
+            </div>
+            <div class="white">
+                <chart class="dashchart" type="horizontalBar" [data]="horizontalBarData" [options]="horizontalBarDataOptions"></chart>
+            </div>
+        </div>
+    </div>
+    <div class="col m6 s12 mart10">
+        <div class="mat-elevation-z4 white dashh1">
+            <div class="row dashrowfix">
+                <div class="col m8 s12 martneg10">
+                    <h5 class="white-text">Bubble Chart</h5>
+                </div>
+            </div>
+            <div class="white">
+                <chart class="dashchart" type="bubble" [data]="bubbleData" [options]="bubbleOptions"></chart>
+            </div>
+        </div>
+    </div>
+    <div class="col m6 s12 mart10">
+        <div class="mat-elevation-z4 white dashh1">
+            <div class="row dashrowfix">
+                <div class="col m12 s12 martneg10">
+                    <h5 class="white-text">Stacked Bar Chart</h5>
+                </div>
+            </div>
+            <div class="white">
+                <chart class="dashchart" type="bar" [data]="stackedBarData" [options]="stackedBaroptions"></chart>
+            </div>
+        </div>
+    </div>
+    <div class="col m6 s12 mart10">
+        <div class="mat-elevation-z4 white dashh1">
+            <div class="row dashrowfix">
+                <div class="col m12 s12 martneg10">
+                    <h5 class="white-text">Multi Line Chart</h5>
+                </div>
+            </div>
+            <div class="white">
+                <chart class="dashchart" type="line" [data]="mutiLineChartData" [options]="mutiLineChartDataoptions"></chart>
+            </div>
+        </div>
+    </div>
+</div>
